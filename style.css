@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Lato;
-    font-size: 16px;
+    
 }
 
 body {
     background-color: rgb(0, 0, 0);
+    font-family:Lato;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 h1,h2,p,li {
@@ -28,6 +30,23 @@ nav li {
 }
 
 
+
 header {
- margin-top: 5em;
+    margin-top: 5em;
+    display: grid;
+    
+    align-items: center;
+    justify-items: center;
+    grid-auto-columns: auto;
+
 }
+
+img {
+    width: auto;
+    height: auto;
+}
+
+.info-right {
+    margin-left: 20px;
+}
+
